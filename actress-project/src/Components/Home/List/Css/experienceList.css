@@ -1,0 +1,44 @@
+.experience-list-container{
+width: 400px;
+ border-radius: 10px;
+    background-color: rgb(200, 187, 187);
+    padding: 30px 20px;
+}
+
+.experience-list{
+
+}
+
+.main-title{
+   font-family: var(--font-family);
+  font-size: 24px;
+  color: var(--total-black);
+  margin-bottom: 20px;
+}
+
+.title{
+ font-family: var(--font-family);
+ font-weight: 600;
+  font-size: 24px;
+  color: var(--total-black);
+  margin-bottom: 15px;
+}
+
+.list-desc{
+     font-family: var(--font-family);
+ font-weight: normal;
+  font-size: 24px;
+  color: var(--total-black);
+  margin-bottom: 10px;
+}
+
+.list-desc:last-child{
+    margin-bottom: 0;
+}
+
+.list{
+     padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(239, 234, 234);
+}

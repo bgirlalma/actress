@@ -1,0 +1,30 @@
+.skills-list-container {
+  width: 400px;
+  height: 100%;
+}
+
+.skills-list {
+    border-radius: 10px;
+    background-color: rgb(200, 187, 187);
+    padding: 30px 20px;
+}
+
+.skills {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(239, 234, 234);
+    margin-bottom: 15px;
+}
+
+.skills-title {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 24px;
+  color: var(--total-black);
+}
+
+.skills-desc {
+  font-family: var(--font-family);
+  font-size: 20px;
+  color: var(--total-black);
+}

@@ -4,6 +4,7 @@
 
    --font-family: Arial, sans-serif;
   --nav-title-color: rgb(93, 23, 113);
+  --total-black: black;
 
   --hover-nav-title: rgb(27, 212, 113);
 }
@@ -27,4 +28,13 @@ margin: 0;
 li{
   text-decoration: none;
   list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
 }
