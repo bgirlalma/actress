@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+
 import ExperienceList from "./List/experienceList";
 import ParametersList from "./List/parametersList";
 import SkillsList from "./List/skilsList";
@@ -14,12 +14,6 @@ const Home = () => {
         <ExperienceList />
       </div>
 
-      <button type="button">
-        <NavLink to="/video">Watch the Video</NavLink>
-      </button>
-      <button type="button">
-        <NavLink to="/photo">See Photos</NavLink>
-      </button>
     </div>
   );
 };

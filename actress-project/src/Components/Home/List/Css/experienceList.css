@@ -1,44 +1,50 @@
-.experience-list-container{
-width: 400px;
- border-radius: 10px;
-    background-color: rgb(200, 187, 187);
-    padding: 30px 20px;
+.experience-list-container {
+  width: 400px;
+  border-radius: 10px;
+  background-color: rgb(200, 187, 187);
+  padding: 30px 20px;
+ opacity: 0; /* Начальное состояние - невидимое */
+  transform: translateX(100%); /* Начальное состояние - за пределами справа */
+  animation: slide-in-right 1s ease-out forwards; /* Анимация въезда */
 }
 
-.experience-list{
-
-}
-
-.main-title{
-   font-family: var(--font-family);
+.main-title {
+  font-family: var(--font-family);
   font-size: 24px;
   color: var(--total-black);
   margin-bottom: 20px;
 }
 
-.title{
- font-family: var(--font-family);
- font-weight: 600;
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
   font-size: 24px;
   color: var(--total-black);
   margin-bottom: 15px;
 }
 
-.list-desc{
-     font-family: var(--font-family);
- font-weight: normal;
+.list-desc {
+  font-family: var(--font-family);
+  font-weight: normal;
   font-size: 24px;
   color: var(--total-black);
   margin-bottom: 10px;
 }
 
-.list-desc:last-child{
-    margin-bottom: 0;
+.list-desc:last-child {
+  margin-bottom: 0;
 }
 
-.list{
-     padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    background-color: rgb(239, 234, 234);
+.list {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(239, 234, 234);
+}
+
+@keyframes slide-in-right {
+  to {
+    opacity: 1; /* Конечное состояние - видимое */
+    transform: translateX(0); /* Конечное состояние - на месте */
+  }
 }
