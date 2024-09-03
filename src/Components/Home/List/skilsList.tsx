@@ -23,6 +23,7 @@ const SkillsList = () => {
       </div>
       <div className="flex-container">
         <ul className="skills-list">
+          <h2 className="title-skills">Skills</h2>
           <li className="skills">
             <h2 className="skills-title">Dance: "Pro level"</h2>
             <p className="skills-desc">Style: "Breaking", "Hip-Hop"</p>

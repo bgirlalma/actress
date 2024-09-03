@@ -1,5 +1,4 @@
 .experience-list-container {
-  width: 400px;
   border-radius: 10px;
   background-color: rgb(200, 187, 187);
   padding: 30px 20px;
@@ -10,7 +9,7 @@
 
 .main-title {
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 20px;
   color: var(--total-black);
   margin-bottom: 20px;
 }
@@ -18,7 +17,7 @@
 .title {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   color: var(--total-black);
   margin-bottom: 15px;
 }
@@ -26,7 +25,7 @@
 .list-desc {
   font-family: var(--font-family);
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   color: var(--total-black);
   margin-bottom: 10px;
 }
@@ -47,4 +46,22 @@
     opacity: 1; /* Конечное состояние - видимое */
     transform: translateX(0); /* Конечное состояние - на месте */
   }
+}
+
+@media screen and (min-width: 1330px) {
+  .experience-list-container {
+  width: 400px;
+}
+
+.main-title {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.list-desc {
+  font-size: 24px;
+}
 }

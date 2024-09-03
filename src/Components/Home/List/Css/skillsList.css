@@ -1,13 +1,66 @@
 .skills-list-container {
-position: relative;
-  width: 400px;
-  height: auto;
-
-  opacity: 0;
+   margin-bottom: 30px;
   transform: translateY(
     -100%
   ); /* Начальное состояние: элемент за пределами экрана снизу */
   animation: slide-in-top 1s ease-out forwards; /* Анимация с правильным синтаксисом */
+}
+
+.main-photo {
+display: none;
+}
+
+.button-container{
+display: none;
+}
+
+.skills-list {
+  border-radius: 10px;
+  background-color: rgb(200, 187, 187);
+  padding: 30px 20px;
+}
+
+.title-skills{
+    font-family: var(--font-family);
+  font-size: 20px;
+  color: var(--total-black);
+  margin-bottom: 20px;
+}
+
+.skills {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(239, 234, 234);
+  margin-bottom: 15px;
+}
+
+.skills-title {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 20px;
+  color: var(--total-black);
+}
+
+.skills-desc {
+  font-family: var(--font-family);
+  font-size: 20px;
+  color: var(--total-black);
+}
+
+@keyframes slide-in-top {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Start media */
+@media screen and (min-width: 1330px) {
+  .skills-list-container {
+position: relative;
+  width: 400px;
+  height: auto;
+   margin-bottom: 0;
 }
 
 .main-photo {
@@ -72,35 +125,13 @@ bottom: 0;
 right: 10px;
 }
 
-.skills-list {
-  border-radius: 10px;
-  background-color: rgb(200, 187, 187);
-  padding: 30px 20px;
-}
+.title-skills{
+  font-size: 24px;
 
-.skills {
-  padding: 10px;
-  border-radius: 10px;
-  background-color: rgb(239, 234, 234);
-  margin-bottom: 15px;
 }
 
 .skills-title {
-  font-family: var(--font-family);
-  font-weight: normal;
   font-size: 24px;
-  color: var(--total-black);
 }
 
-.skills-desc {
-  font-family: var(--font-family);
-  font-size: 20px;
-  color: var(--total-black);
-}
-
-@keyframes slide-in-top {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
