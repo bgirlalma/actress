@@ -54,16 +54,35 @@ align-items: center;
   }
 }
 
+
+/* Start Media */
+@media screen and (min-width: 550px){
+    .parameters-list-container{
+  width: 500px;
+   margin-left: auto;
+   margin-right:auto;
+}
+
+.main-title{
+ font-size: 24px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+    .parameters-list-container{
+  width: 100%;
+  margin-bottom: 0;
+}
+
+}
+
 @media screen and (min-width: 1330px){
   .parameters-list-container{
-  width: 400px;
+  width: 100%;
    margin-bottom: 0;
+   padding: 30px;
 }
 
-
-.list-container-params{
-  width: 350px;
-}
 .main-title{
  font-size: 24px;
 }
